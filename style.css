@@ -68,6 +68,25 @@ body {
 .intro pre{
     font-size: large;
 }
+/* Media queries */
+@media only screen and (max-width: 640px) {
+    .menu li{
+        display: block;
+        margin: 5px 0; /* Adjust the margin as needed */
+    }
+    .navigation{
+        height: 150px;
 
+    }
+    .intro picture{
+        max-width: 100%;
+        height: auto;
+    }
+    .intro p{
+        font-size: 14px;
+
+        text-align: justify;
+    }
+}
 
 
