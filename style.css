@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --main-color: #3498db;
+    --secondary-color: #0749f2;
+}
 header {
     height: 20vmin; 
 }
@@ -31,6 +35,7 @@ body {
     padding: 10px;
     height: 890px;
     transition: background-color 0.3s ease-in-out;
+   
 }
 
 .navigation nav {
@@ -63,4 +68,6 @@ body {
 .intro pre{
     font-size: large;
 }
+
+
 
