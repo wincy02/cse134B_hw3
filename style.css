@@ -1,0 +1,58 @@
+*{
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #6495ed;
+}
+ul{
+    list-style: none;
+}
+.navigation nav{
+    position: fixed;
+    height: 550px;
+    width:230px;
+    background-color: #4a83ed;
+}
+.menu{
+    margin:50px 0;
+    font-size: 17px;
+    font-weight: 600;
+    padding:16px ;
+    transition: 0.3s;
+}
+.menu li:hover{
+    background-color: #8aadef;
+}
+.li .fa{
+    font-size: 20px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+.li ul{
+    width: 100px;
+    height: 450px;
+    padding:50px 0;
+    background-color: #185fe4;
+    position:absolute;
+    top:0;
+    right:0;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.li ul li{
+    padding:16px 24px;
+    white-space: nowrap;
+    transition: 0.3s;
+
+}
+.li:hover ul{
+    width:150px;
+}
+.li ul li:hover{
+    background-color: #8aadef;
+}
